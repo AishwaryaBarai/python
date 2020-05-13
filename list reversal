@@ -1,0 +1,7 @@
+def Reverse(lst):
+    new_lst = lst[::-1]
+    return new_lst
+
+
+lst = input('enter the list: ')
+print(Reverse(lst))
