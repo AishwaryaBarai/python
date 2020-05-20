@@ -1,0 +1,12 @@
+lst = [0,1,2,3,4,5]
+lst2 = []
+
+for i in lst:
+    if i%2 == 0:
+        i = i +1
+        lst2.append(i)
+    else:
+        i = i-1
+        lst2.append(i)
+print(lst2)
+        
